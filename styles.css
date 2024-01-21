@@ -39,15 +39,16 @@ header nav {
     display: none;
     position: absolute;
     max-height: 100vh;
-    top: 5.150rem;
+    top: 5.1rem;
     left: 0;
     background: #000000;
     background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #434343, #000000);
     height: max-content;
     width: 40vh;
-    height: 90vh;
-
+    height: 60vh;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 header nav.active {
@@ -59,7 +60,6 @@ header nav ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* gap: 1.6rem; */
     margin-bottom: 2rem;
 }
 
@@ -133,9 +133,15 @@ header .hamburger div {
 .conteiner-main .background-black .bi-chevron-down {
     color: rgb(255, 255, 255);
     font-size: 2.6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     cursor: pointer;
     animation: moveXY 2s ease-in-out infinite;
+
+}
+
+.conteiner-main .background-black .bi-chevron-down:hover {
+    color: #008FA2;
+
 }
 
 @keyframes moveXY {
