@@ -207,3 +207,10 @@ header .hamburger div {
 /* background: #485563;
 background: -webkit-linear-gradient(to right, #29323c, #485563);
 background: linear-gradient(to right, #29323c, #485563); background para main*/
+
+
+@media only screen and (max-width: 1000px) {
+    header nav {
+        top: 5rem;
+    }
+}
