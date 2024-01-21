@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@300;400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --font-1: 'Bebas Neue', sans-serif;
+    --font-2: 'Source Code Pro', monospace;
+}
+
+header {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 2rem;
+}
+
+header h2 {
+    font-family: var(--font-1);
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+
+h2:hover {
+    transform: rotate(-2deg);
+}
+
+header nav {
+    display: none;
+    position: absolute;
+    max-height: 100vh;
+    top: 5.150rem;
+    left: 0;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    height: max-content;
+    width: 40vh;
+    height: 90vh;
+
+}
+
+header nav.active {
+    display: block;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1.6rem; */
+    margin-bottom: 2rem;
+}
+
+header nav ul li {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    padding: .6rem 2rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* header nav ul li:first-child {
+    border-top: 1px solid rgb(255, 255, 255);
+} */
+
+header nav ul li:hover {
+    background-color: #434343;
+    border-bottom: 1px solid #008FA2;
+}
+
+header nav ul a {
+    font-family: var(--font-1);
+    font-size: 1.260rem;
+    color: rgb(255, 255, 255);
+}
+
+header .hamburger {
+    width: 20px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+header .hamburger div {
+    width: 16px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* hr {
+    border-color: #008FA2;
+    margin: 0 2rem;
+} */
+
+/* END HEADER */
+
+.conteiner-main {
+    background-image: url(./img/fondo-main.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.conteiner-main .background-black {
+    background-color: #0000005e;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+.conteiner-main .background-black .bi-chevron-down {
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    animation: moveXY 2s ease-in-out infinite;
+}
+
+@keyframes moveXY {
+    0% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.flex-redes {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    padding: 2rem 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    height: max-content;
+}
+
+.flex-redes i {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.flex-redes i:hover {
+    transform: rotate(-4deg) scale(1.1);
+}
+
+.flex-redes i:first-child:hover {
+    color: rgb(30, 114, 30);
+
+}
+
+.flex-redes i:nth-child(2):hover {
+    color: rgb(95, 226, 95);
+}
+
+.flex-redes i:last-child:hover {
+    color: rgb(226, 135, 17);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background: #485563;
+background: -webkit-linear-gradient(to right, #29323c, #485563);
+background: linear-gradient(to right, #29323c, #485563); background para main*/
