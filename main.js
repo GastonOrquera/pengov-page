@@ -17,7 +17,7 @@ navLinks.forEach(function (link) {
 ScrollReveal().reveal('.scroll-reveal', {
     origin: 'left',
     distance: '40px',
-    easing: 'cubic-bezier(0.5,0,0,1)',
+    easing: 'cubic-bezier(0.5,0,0,1.2)',
     duration: 1000,
     interval: 200
 });
