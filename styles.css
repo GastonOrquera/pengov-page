@@ -442,6 +442,12 @@ hr {
         grid-row: 11/12;
     }
 
+    .photos .gallery .img-12 {
+        grid-column: 1/3;
+        grid-row: 12/13;
+    }
+
+
 
 
 }
