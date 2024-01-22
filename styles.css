@@ -29,27 +29,30 @@ header {
 header h2 {
     font-family: var(--font-1);
     letter-spacing: 2px;
-    color: rgb(255, 255, 255);
+
+    color: #02b0c7;
+    ;
 }
 
-h2:hover {
-    transform: rotate(-2deg);
+header h2:hover {
+    color: #008FA2;
 }
+
 
 header nav {
     display: none;
     position: absolute;
-    /* max-height: 100vh; */
+    max-height: 100vh;
     top: 5.1rem;
     left: 0;
+    height: max-content;
+    width: 40vh;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    z-index: 1000;
     background: #000000;
     background: -webkit-linear-gradient(to right, #434343, #000000);
     background: linear-gradient(to right, #434343, #000000);
-    height: max-content;
-    width: 40vh;
-    height: 60vh;
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
 }
 
 header nav.active {
@@ -71,10 +74,6 @@ header nav ul li {
     cursor: pointer;
     transition: 1s;
 }
-
-/* header nav ul li:first-child {
-    border-top: 1px solid rgb(255, 255, 255);
-} */
 
 header nav ul li:hover {
     background-color: #434343;
@@ -103,11 +102,6 @@ header .hamburger div {
     height: 2px;
     background-color: rgb(255, 255, 255);
 }
-
-/* hr {
-    border-color: #008FA2;
-    margin: 0 2rem;
-} */
 
 /* END HEADER */
 
@@ -161,7 +155,6 @@ header .hamburger div {
 .flex-redes {
     display: flex;
     justify-content: space-between;
-    /* background-color: yellow; */
     padding: 2.6rem 2rem;
     color: rgb(255, 255, 255);
     font-size: 1.6rem;
@@ -232,6 +225,126 @@ hr {
 }
 
 
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* padding: 2rem 2rem; */
+    margin-top: 2rem;
+}
+
+.photos .gallery {
+    /* min-width: 750px; */
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px;
+
+    /* grid-gap: 1rem; */
+    gap: .680rem;
+}
+
+.photos .gallery .img-1 {
+    background-color: #008FA2;
+    background-image: url(img/img1.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    grid-column: 1/3;
+}
+
+.photos .gallery .img-2 {
+    background-color: #198b15;
+    grid-row: 2/4;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.35\(3\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photos .gallery .img-3 {
+    background-color: #d1d41d;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.26.59.jpeg);
+    background-size: cover;
+    background-position: left;
+}
+
+.photos .gallery .img-4 {
+    background-color: #ad4120;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.00\(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photos .gallery .img-5 {
+    background-color: #921dc0;
+    grid-row: 1/3;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.03.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photos .gallery .img-6 {
+    background-color: #106e42;
+    /* grid-column: 2/4; */
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.02.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photos .gallery .img-7 {
+    background-color: #106e42;
+    grid-column: 3/5;
+    grid-row: 3/5;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.35.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.photos .gallery .img-8 {
+    background-color: #106e42;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.01\(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.photos .gallery .img-9 {
+    background-color: #106e42;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.01.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.photos .gallery .img-10 {
+    background-color: #106e42;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.35\(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.photos .gallery .img-11 {
+    background-color: #106e42;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.03.jpeg);
+    background-size: cover;
+    background-position: top;
+
+}
+
+
+.photos .gallery .img-12 {
+    background-color: #106e42;
+    background-image: url(img/WhatsApp\ Image\ 2024-01-21\ at\ 15.27.35\(2\).jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+
 
 
 
@@ -262,4 +375,87 @@ hr {
     .conteinerAllContent .biografia hr {
         width: 68%;
     }
+
+
+    .photos .gallery {
+        min-width: 100%;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 250px 250px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
+
+        gap: .680rem;
+    }
+
+    .photos .gallery .img-1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .photos .gallery .img-2 {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .photos .gallery .img-3 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .photos .gallery .img-4 {
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+
+    .photos .gallery .img-5 {
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+
+    .photos .gallery .img-6 {
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+
+    .photos .gallery .img-7 {
+        grid-column: 1/3;
+        grid-row: 7/8;
+    }
+
+
+    .photos .gallery .img-8 {
+        grid-column: 1/3;
+        grid-row: 8/9;
+    }
+
+    .photos .gallery .img-9 {
+        grid-column: 1/3;
+        grid-row: 9/10;
+    }
+
+    .photos .gallery .img-10 {
+        grid-column: 1/3;
+        grid-row: 10/11;
+    }
+
+    .photos .gallery .img-11 {
+        grid-column: 1/3;
+        grid-row: 11/12;
+    }
+
+
+
 }
+
+
+
+/*  
+    .photos .gallery .img-3,
+    .photos .gallery .img-4,
+    .photos .gallery .img-5,
+    .photos .gallery .img-6,
+    .photos .gallery .img-7,
+    .photos .gallery .img-8,
+    .photos .gallery .img-9,
+    .photos .gallery .img-10,
+    .photos .gallery .img-11,
+    .photos .gallery .img-12 */

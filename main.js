@@ -9,12 +9,10 @@ hamburger.onclick = function () {
 }
 
 navLinks.forEach(function (link) {
-
     link.addEventListener('click', function () {
         nav.classList.remove('active');
     });
-
-});
+})
 
 ScrollReveal().reveal('.scroll-reveal', {
     origin: 'left',
