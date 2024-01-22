@@ -83,7 +83,7 @@ header nav ul li:hover {
 header nav ul a {
     font-family: var(--font-1);
     font-size: 1.260rem;
-    color: rgb(255, 255, 255);
+    color: #ccf9ff;
 }
 
 header .hamburger {
