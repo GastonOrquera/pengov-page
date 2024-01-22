@@ -416,9 +416,10 @@ hr {
 
     #language-selector #language {
         padding: .4rem 1rem;
-        background-color: #02b0c7;
-        border: none;
+
+
         border-radius: 1rem;
+
         cursor: pointer;
     }
 
@@ -509,17 +510,3 @@ hr {
 
 
 }
-
-
-
-/*  
-    .photos .gallery .img-3,
-    .photos .gallery .img-4,
-    .photos .gallery .img-5,
-    .photos .gallery .img-6,
-    .photos .gallery .img-7,
-    .photos .gallery .img-8,
-    .photos .gallery .img-9,
-    .photos .gallery .img-10,
-    .photos .gallery .img-11,
-    .photos .gallery .img-12 */
