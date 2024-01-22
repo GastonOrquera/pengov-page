@@ -32,7 +32,7 @@ ScrollReveal().reveal('.scroll-reveal2', {
 
 ScrollReveal().reveal('.scroll-revealLeft', {
     origin: 'left',
-    distance: '40px',
+    distance: '10px',
     easing: 'cubic-bezier(0.5,0,0,1)',
     duration: 1000,
     interval: 200
@@ -40,7 +40,7 @@ ScrollReveal().reveal('.scroll-revealLeft', {
 
 ScrollReveal().reveal('.scroll-revealRight', {
     origin: 'right',
-    distance: '40px',
+    distance: '10px',
     easing: 'cubic-bezier(0.5,0,0,1)',
     duration: 1000,
     interval: 200
