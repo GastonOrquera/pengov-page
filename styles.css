@@ -215,7 +215,7 @@ header .hamburger div {
 
 .conteinerAllContent .biografia p {
     font-family: var(--font-2);
-    color: rgb(255, 255, 255);
+    color: rgb(206, 206, 206);
     padding-right: 40%;
     line-height: 1.6rem;
 }
