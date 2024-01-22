@@ -127,13 +127,14 @@ header .hamburger div {
     display: flex;
     justify-content: center;
     align-items: end;
+    padding-bottom: 8.6rem;
 }
 
 
 .conteiner-main .background-black .bi-chevron-down {
     color: rgb(255, 255, 255);
     font-size: 2.6rem;
-    padding-bottom: 2.6rem;
+    /* padding-bottom: 2.6rem; */
     cursor: pointer;
     animation: moveXY 2s ease-in-out infinite;
 
