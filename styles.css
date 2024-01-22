@@ -8,6 +8,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -189,6 +190,46 @@ header .hamburger div {
     color: rgb(226, 135, 17);
 }
 
+/* END MAIN PRESENTATION */
+
+.conteinerAllContent {
+    background: #485563;
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    background: linear-gradient(to right, #29323c, #485563);
+    padding: 2rem 2rem;
+
+}
+
+.conteinerAllContent .biografia {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conteinerAllContent .biografia h1 {
+    font-family: var(--font-1);
+    color: #008FA2;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+}
+
+.conteinerAllContent .biografia p {
+    font-family: var(--font-2);
+    color: rgb(255, 255, 255);
+    padding-right: 40%;
+    line-height: 1.6rem;
+}
+
+.conteinerAllContent .biografia .span-color {
+    color: #008FA2;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+hr {
+    border-color: #008FA2;
+    width: 16%;
+}
 
 
 
@@ -196,23 +237,29 @@ header .hamburger div {
 
 
 
-
-
-
-
-
-
-
-/* background: #485563;
-background: -webkit-linear-gradient(to right, #29323c, #485563);
-background: linear-gradient(to right, #29323c, #485563); background para main*/
 
 
 @media only screen and (max-width: 1000px) {
+    header {
+        padding: 1.6rem 1rem;
+    }
+
     header nav {
         top: 5.020rem;
         width: 100%;
         background: #363c3d;
         height: max-content;
+    }
+
+    .conteinerAllContent {
+        padding: 1rem 1rem;
+    }
+
+    .conteinerAllContent .biografia p {
+        padding-right: 0%;
+    }
+
+    .conteinerAllContent .biografia hr {
+        width: 68%;
     }
 }
