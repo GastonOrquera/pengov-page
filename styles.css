@@ -38,7 +38,7 @@ h2:hover {
 header nav {
     display: none;
     position: absolute;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     top: 5.1rem;
     left: 0;
     background: #000000;
@@ -127,17 +127,15 @@ header .hamburger div {
     display: flex;
     justify-content: center;
     align-items: end;
-    padding-bottom: 8.6rem;
+    padding-bottom: 8.8rem;
 }
 
 
 .conteiner-main .background-black .bi-chevron-down {
     color: rgb(255, 255, 255);
-    font-size: 2.6rem;
-    /* padding-bottom: 2.6rem; */
+    font-size: 2.8rem;
     cursor: pointer;
     animation: moveXY 2s ease-in-out infinite;
-
 }
 
 .conteiner-main .background-black .bi-chevron-down:hover {
@@ -163,7 +161,7 @@ header .hamburger div {
     display: flex;
     justify-content: space-between;
     /* background-color: yellow; */
-    padding: 2rem 2rem;
+    padding: 2.6rem 2rem;
     color: rgb(255, 255, 255);
     font-size: 1.6rem;
     height: max-content;
