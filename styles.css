@@ -103,6 +103,35 @@ header .hamburger div {
     background-color: rgb(255, 255, 255);
 }
 
+#language-selector {
+    /* background-color: blue; */
+    color: #02b0c7;
+    font-family: var(--font-1);
+    position: absolute;
+    left: 40%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+#language-selector #language {
+    padding: .6rem 2rem;
+    background-color: #02b0c7;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#language-selector #language:hover {
+    background-color: #008FA2;
+}
+
+#language-selector #language option {
+    background-color: rgba(0, 0, 0, 0.384);
+    border: none;
+}
+
 /* END HEADER */
 
 .conteiner-main {
@@ -381,6 +410,30 @@ hr {
         width: 68%;
     }
 
+    #language-selector {
+        left: 56%;
+    }
+
+    #language-selector #language {
+        padding: .4rem 1rem;
+        background-color: #02b0c7;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    #language-selector #language:hover {
+        background-color: #008FA2;
+    }
+
+    #language-selector #language option {
+        background-color: rgba(0, 0, 0, 0.384);
+        border: none;
+    }
+
+    label {
+        display: none;
+    }
 
     .photos .gallery {
         min-width: 100%;
