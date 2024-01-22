@@ -161,25 +161,28 @@ header .hamburger div {
     height: max-content;
 }
 
-.flex-redes i {
+.flex-redes a {
     cursor: pointer;
     transition: 1s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
-.flex-redes i:hover {
+.flex-redes a:hover {
     transform: rotate(-4deg) scale(1.1);
+
 }
 
-.flex-redes i:first-child:hover {
+.flex-redes a:first-child:hover {
     color: rgb(30, 114, 30);
 
 }
 
-.flex-redes i:nth-child(2):hover {
+.flex-redes a:nth-child(2):hover {
     color: rgb(95, 226, 95);
 }
 
-.flex-redes i:last-child:hover {
+.flex-redes a:last-child:hover {
     color: rgb(226, 135, 17);
 }
 
@@ -211,6 +214,8 @@ header .hamburger div {
     color: rgb(206, 206, 206);
     padding-right: 40%;
     line-height: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .conteinerAllContent .biografia .span-color {
