@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/headphone_6486843.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Agustin Pengov</title>
@@ -168,6 +168,38 @@
 
                 </article>
             </section>
+            <!-- MUSIC -->
+
+            <h1 class="titul">Musica creada por Agustin Pengov</h1>
+            <hr class="hr-music">
+            <div class="container">
+                <audio></audio>
+
+                <h1 class="h1-js">My Songs</h1>
+
+                <div class="time-font" id="current_time">0:00</div>
+
+                <div class="buttons">
+                    <button id="prev">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button id="play">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="next">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                </div>
+
+                <div class="time-font" id="current_audio"></div>
+
+                <div class="progress_container">
+                    <div id="progress"></div>
+                </div>
+
+            </div>
+
+
         </div>
     </main>
 
