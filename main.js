@@ -504,7 +504,7 @@ function changeLanguage() {
     const progressContainer = document.querySelector(".progress_container");
     const progress = document.getElementById("progress");
 
-    const songs = ["Rufus du Sol - Eyes (Martin Fredes Remix)", "Franco Dalmati - Saitan Reme", "Andres Morris - Perpetual"];
+    const songs = ["Agustin Pengov - Cloudy [AH Digital]", "Agustin Pengov - Exile [Droid9]", "Agustin Pengov - Etias [3rd Avenue]", "Agustin Pengov - That [Sound Avenue]", "Agustin Pengov - Concordia [AH Digital]", "Agustin Pengov - SEIA [onedotsixtwo]"];
 
     let audioIndex = 0;
 
@@ -635,7 +635,7 @@ const current_audio = document.getElementById("current_audio");
 const progressContainer = document.querySelector(".progress_container");
 const progress = document.getElementById("progress");
 
-const songs = ["Rufus du Sol - Eyes (Martin Fredes Remix)", "Franco Dalmati - Saitan Reme", "Andres Morris - Perpetual"];
+const songs = ["Agustin Pengov - Cloudy [AH Digital]", "Agustin Pengov - Exile [Droid9]", "Agustin Pengov - Etias [3rd Avenue]", "Agustin Pengov - That [Sound Avenue]", "Agustin Pengov - Concordia [AH Digital]", "Agustin Pengov - SEIA [onedotsixtwo]"];
 
 let audioIndex = 0;
 
