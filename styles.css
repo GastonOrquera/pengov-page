@@ -470,6 +470,40 @@ hr {
 }
 
 
+footer h2 {
+    font-family: var(--font-1);
+    font-size: 2rem;
+    color: #02b0c7;
+    padding: 2rem 0;
+    width: max-content;
+}
+
+footer h2:hover {
+
+    color: #008FA2;
+}
+
+footer .flex-redes {
+    /* background-color: yellowgreen; */
+    justify-content: flex-start;
+    padding: 0;
+    gap: 2.8rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
