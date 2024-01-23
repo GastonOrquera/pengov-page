@@ -159,26 +159,12 @@ header .hamburger div {
     color: rgb(255, 255, 255);
     font-size: 2.8rem;
     cursor: pointer;
-    animation: moveXY 2s ease-in-out infinite;
+
 }
 
 .conteiner-main .background-black .bi-chevron-down:hover {
     color: #008FA2;
-
-}
-
-@keyframes moveXY {
-    0% {
-        transform: scale(1.1);
-    }
-
-    50% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(1.1);
-    }
+    transform: scale(1.1);
 }
 
 .flex-redes {
@@ -483,12 +469,37 @@ footer h2:hover {
     color: #008FA2;
 }
 
-footer .flex-redes {
-    /* background-color: yellowgreen; */
-    justify-content: flex-start;
-    padding: 0;
+footer .flex-redes2 {
+    padding: 2rem 0;
     gap: 2.8rem;
-    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+
+}
+
+footer .flex-redes2 a {
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+
+
+footer .flex-redes2 .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+footer .flex-redes2 .flex i {
+    font-size: 1.5rem;
+}
+
+footer .flex-redes2 .flex a:nth-child(2),
+footer .flex-redes2 .flex a:nth-child(4) {
+
+    margin-top: 2rem;
 }
 
 
