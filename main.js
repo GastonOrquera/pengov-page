@@ -322,7 +322,7 @@ function changeLanguage() {
 
     </article>
 </section>
-<h1 id="my-music" class="titul scroll-reveal">Musica creata da Agustin Pengov</h1>
+<h1 id="my-music" class="titul scroll-reveal">Music create by Agustin Pengov</h1>
             <hr class="hr-music">
             <div class="container">
                 <audio></audio>
