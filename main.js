@@ -237,7 +237,7 @@ function changeLanguage() {
         contentDiv.innerHTML = `
         <div class="biografia">
         <h1 id="biografiaa" class="scroll-reveal2">Biography</h1>
-        <p>Agustin Pengov, from 🇦🇷​, living in Senigallia 🇮🇹, Argentine DJ and producer born in Villa Mercedes
+        <p>Agustin Pengov, from 🇦🇷​, living in 🇮🇹, Argentine DJ and producer born in Villa Mercedes
             (San Luis), took his first steps around 2016
             with genres such as <span class="span-color">tech house</span> and house; later, with the passage of
             time, he discovered <span class="span-color">Progressive House</span>,
@@ -734,12 +734,6 @@ function changeLanguage() {
 
     progressContainer.addEventListener("click", setProgress);
     audio.addEventListener("ended", nextSong);
-
-
-
-
-
-
 }
 
 // Arrays que contienen los textos traducidos para cada idioma
