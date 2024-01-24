@@ -739,7 +739,7 @@ function changeLanguage() {
 // Arrays que contienen los textos traducidos para cada idioma
 var menuItemsSpanish = ["Inicio", "Biografia", "Primer Lanzamiento", "Apoyo", "Actualidad", "Galeria de imagenes", "Mi musica", "Contactame"];
 var menuItemsEnglish = ["Home", "Biography", "First Release", "Support", "Current Status", "Image Gallery", "My Music", "Contact Me"];
-var menuItemsItalian = ["Home", "Biografia", "Primo Lancio", "Supporto", "Attualità", "Galleria di immagini", "La mia musica", "Contattami"];
+var menuItemsItalian = ["Inizio", "Biografia", "Primo Lancio", "Supporto", "Attualità", "Galleria di immagini", "La mia musica", "Contattami"];
 
 /* MUSIC */
 
